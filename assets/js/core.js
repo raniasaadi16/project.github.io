@@ -306,34 +306,19 @@ $(document).ready(function(){
 // Parallax Background
 //
 ////////////////////////////////////////
-$(document).ready(function(){
-    if($('.parallax').length){
-        var rellax = new Rellax('.parallax', {
-            // center: true, /** stupid library **/
-            speed: -3
-        });
-    }
-});
+// $(document).ready(function(){
+//     if($('.parallax').length){
+//         var rellax = new Rellax('.parallax', {
+//             // center: true, /** stupid library **/
+//             speed: -3
+//         });
+//     }
+// });
 
 
 
 
-////////////////////////////////////////
-//
-// Youtube Background
-//
-////////////////////////////////////////
-$(document).ready(function(){
-    if($('.youtube-background').length){
-        $('.youtube-background').each(function(){
-            var $this = $(this);
-            $(this).YTPlayer({
-                containment: $this.parent(".background-holder"),
-                showControls: false
-            });
-        });
-    }
-});
+
 
 
 

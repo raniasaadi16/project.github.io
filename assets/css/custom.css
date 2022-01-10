@@ -17,6 +17,17 @@
   height: 539px;
 }
 
+.about-imgs {
+  height: 373px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.about-col-imgs {
+  height: 421px;
+  object-fit: cover;
+}
+
 .qr {
   width: 70px;
 }
